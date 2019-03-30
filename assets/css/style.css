@@ -1,0 +1,76 @@
+
+
+.jumbotron {
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: url('/assets/img/jumbotron.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.section-title {
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+/*      music      */
+
+.music-header {
+    color: white;
+    padding-bottom: 20px;
+}
+.music-player .container {
+    background: rgba(233, 182, 105, 0.3);
+    height: auto;
+    width: 96%;
+    max-width: 60em;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+#music-background {
+    background-image: url(/assets/img/music.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+}
+.music iframe {
+    margin-bottom: 10px;
+}
+
+/*      Photos      */
+
+.photo-header {
+    color: white;
+    padding-bottom: 20px;
+}
+
+#photos-background {
+    background-image: url(/assets/img/photos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.photo-gallery .container {
+    background: rgba(233, 182, 105, 0.3);
+    height: auto;
+    width: auto;
+    max-width: 60em;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
