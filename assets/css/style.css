@@ -31,6 +31,86 @@ html,body {
     margin-bottom: 40px;
 }
 
+/*      Meet the band      */
+.card-deck {
+    margin: 10px 10px 30px 10px;
+    background: #fff;
+    
+}
+.card-deck .col-md-2{
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border-radius: 10px;
+}
+.card {
+    position: relative;
+    margin: 40px auto;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.card h3 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: -35px;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: .5s;
+}
+
+.card:hover h3 {
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+@media (min-width: 540px) {
+    .card:hover h3 {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+@media (min-width: 720px) {
+    .card:hover h3 {
+    top: 25%;
+    transform: translateY(-50%);
+   
+    
+}
+
+}
+@media (min-width: 960px) {
+    .card:hover h3 {
+    top: 35%;
+    transform: translateY(-50%);
+}
+}
+
+.card-title {
+    padding: 5px;
+    background: #101113;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.card-body {
+    padding: 10px;
+}
 /*      music      */
 
 .music-header {
