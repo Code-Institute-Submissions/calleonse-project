@@ -72,7 +72,6 @@ html,body {
 .card:hover h3 {
     top: 50%;
     transform: translateY(-50%);
-    
 }
 
 @media (min-width: 540px) {
@@ -81,14 +80,12 @@ html,body {
     transform: translateY(-50%);
     font-size: 30px;
 }
+}
 @media (min-width: 720px) {
     .card:hover h3 {
     top: 25%;
-    transform: translateY(-50%);
-   
-    
+    transform: translateY(-50%);    
 }
-
 }
 @media (min-width: 960px) {
     .card:hover h3 {
