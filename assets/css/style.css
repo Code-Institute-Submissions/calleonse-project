@@ -12,7 +12,22 @@ html,body {
 }
 
 
+/* navbar*/
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+
 .jumbotron {
+  
 
     padding-top: 90px;
     padding-bottom: 90px;
@@ -72,6 +87,7 @@ html,body {
 }
 
 .card:hover h3 {
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.7);
     top: 50%;
     transform: translateY(-50%);
 }
@@ -99,7 +115,7 @@ html,body {
 .card-title {
     padding: 5px;
     background: #101113;
-    color: #fff;
+    color:orange;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -184,7 +200,34 @@ html,body {
 
 .photo-header {
     color: white;
-    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 800;
+    font-size: 32px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.photo-header:after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    bottom: -5px;
+    margin-left: -30px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
 }
 
 #photos-background {
@@ -216,8 +259,9 @@ html,body {
 }
 
 .photos img:hover {
-  filter: none; /* IE6-9 */
-  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+    
+     filter: none; /* IE6-9 */
+     -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -253,7 +297,11 @@ html,body {
 
 #tour{
     margin: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 .tour-header{ 
     text-transform: uppercase;
@@ -286,9 +334,7 @@ html,body {
     background-clip: padding-box;
 }
 
-.tour-section .container {
-    max-width: 860px;
-}
+
 
 .tour-section .item {
     position: relative;
@@ -344,7 +390,12 @@ html,body {
 .btn-secondary{
     background-color: black;
 }
-a.btn-secondary:hover, a.btn-secondary:active, a.btn-secondary:focus, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+a.btn-secondary:hover, 
+a.btn-secondary:active, 
+a.btn-secondary:focus, 
+.btn-secondary:hover, 
+.btn-secondary:active, 
+.btn-secondary:focus {
     background:orange;
     border: 2px solid black;
     color: black;
@@ -360,8 +411,97 @@ a.btn-secondary:hover, a.btn-secondary:active, a.btn-secondary:focus, .btn-secon
 }
 
 .tour-contact h4{
+    text-transform: uppercase;
     padding:20px;
 }
 .tour-contact p{
     padding:5px;
+}
+
+
+/*----------------------------------------------contacts*/
+
+#Contacts {
+    color: #fff;
+    background-color: #101113;
+    text-align: center;
+}
+.contacts-header {
+    
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 800;
+    font-size: 32px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.contacts-header:after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: orange;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    bottom: -5px;
+    margin-left: -30px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.newsletter h3{
+    text-transform: uppercase;
+    padding:5px;
+}
+
+.newsletter p{
+    font-size: 12px;
+    padding:10px;
+}
+.newsletter .email{
+    padding-top: 40px;
+}
+
+.contact-links{
+    margin: auto;
+}
+
+.social-links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: orange;
+}
+
+
+/*----------------------------------------------Media Queries*/
+
+@media (max-width: 768px){
+.tour-section .tour-actions {
+    position: static;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
