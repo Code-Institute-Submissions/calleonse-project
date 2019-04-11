@@ -11,6 +11,13 @@ html,body {
     overflow-x: hidden; 
 }
 
+.section-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 32px; 
+    padding-bottom: 5px;
+}
+
 
 /* navbar*/
 .fixed-top {
@@ -23,12 +30,11 @@ html,body {
 
 .navbar {
     font-size: 20px;
+    color: black;
 }
 
 
 .jumbotron {
-  
-
     padding-top: 90px;
     padding-bottom: 90px;
     background: url('/assets/img/jumbotron.jpg') no-repeat center center fixed;
@@ -42,13 +48,69 @@ html,body {
 
 .section-title {
     padding-top: 40px;
+    margin-bottom: 35px;
+}
+/*----------------------------------------------Ourstory*/
+
+.our-story-header {
+    margin-top: 0;
     margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 5px;
+}
+.our-story-header:after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: orange;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    bottom: -5px;
+    margin-left: -30px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
 }
 
-/*      Meet the band      */
+/*----------------------------------------------Band*/
+
 #band{
     margin: auto;
 }
+.band-header {
+    margin-top: 0;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 5px;
+}
+.band-header:after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: orange;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    bottom: -5px;
+    margin-left: -30px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
 .card-deck {
     margin: 10px 10px 30px 10px;
     background: #fff;
@@ -126,14 +188,14 @@ html,body {
 .card-body {
     padding: 10px;
 }
-/*      music      */
+/*----------------------------------------------Music*/
 
 .music-header {
     text-shadow:0px 5px 50px #fff400;
     color: white;
-    padding-bottom: 20px;
-    
+    padding-bottom: 5px;
 }
+
 
 
 .music-player .container {
@@ -159,16 +221,40 @@ html,body {
 .music iframe {
     margin-bottom: 10px;
 }
-/*      Videos      */
+
+/*----------------------------------------------Videos*/
+
 
 #video-section {
     margin: auto;
 }
 .video-header {
-    color: black;
-    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 5px;
 }
 
+.video-header:after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: orange;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    bottom: -5px;
+    margin-left: -30px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
 
 .videos{
     
@@ -196,15 +282,14 @@ html,body {
   .videos{background: pink;}
 }*/
 
-/*      Photos      */
+/*----------------------------------------------photos*/
+
 
 .photo-header {
-    color: white;
-    text-transform: uppercase;
+    text-shadow:0px 5px 50px #fff400;
+    color: #fff;
     margin-top: 0;
     margin-bottom: 40px;
-    font-weight: 800;
-    font-size: 32px;
     position: relative;
     padding-bottom: 5px;
 }
@@ -293,7 +378,8 @@ html,body {
     }
 }
 
-/*      Tour      */
+/*----------------------------------------------Tour*/
+
 
 #tour{
     margin: auto;
@@ -304,11 +390,8 @@ html,body {
     padding-bottom: 50px;
 }
 .tour-header{ 
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 40px;
-    font-weight: 800;
-    font-size: 32px;
     position: relative;
     padding-bottom: 5px;
 }
@@ -427,12 +510,8 @@ a.btn-secondary:focus,
     text-align: center;
 }
 .contacts-header {
-    
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 40px;
-    font-weight: 800;
-    font-size: 32px;
     position: relative;
     padding-bottom: 5px;
 }
