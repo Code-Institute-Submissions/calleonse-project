@@ -1,6 +1,6 @@
-/**{
+*{
  outline: 1px solid red;
-}*/
+}
 
 
 html,body {
@@ -30,9 +30,18 @@ html,body {
 
 .navbar {
     font-size: 20px;
-    
+}
+.navbar .navbar-nav .nav-item a {
+    color: #fff;
+}
 
 
+/* change the color of active or hovered links */
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:focus .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: orange;
+}
 .jumbotron {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -192,9 +201,33 @@ html,body {
 .music-header {
     text-shadow:0px 5px 50px #fff400;
     color: white;
+    margin-top: 0;
+    margin-bottom: 40px;
+    position: relative;
     padding-bottom: 5px;
+    
 }
 
+.music-header::after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    bottom: -5px;
+    margin-left: -30px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
 
 
 .music-player .container {
