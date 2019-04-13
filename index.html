@@ -13,7 +13,7 @@
 
 <body>
     <!-------------Navbar----------->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class"navbar-brand" href="#">
             <img src="/assets/img/logo.png" width="80" height="80" class="d-inline-block align-top" alt="">
         </a>
@@ -25,22 +25,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Our Story <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#story">Our Story <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Music</a>
+                    <a class="nav-link" href="#music">Music</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Videos</a>
+                    <a class="nav-link" href="#video">Videos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Photos</a>
+                    <a class="nav-link" href="#photos">Photos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tours</a>
+                    <a class="nav-link" href="#tour">Tours</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacts</a>
+                    <a class="nav-link" href="#contacts">Contacts</a>
                 </li>
             </ul>
         </div>
@@ -58,10 +58,10 @@
 
     <div class="container-fluid">
         <!-------------our-story----------->
-        <div class="row our-story">
+        <div class="row our-story" id="story">
             <div class="col-sm-12">
                 <div class="our-story-header text-center">
-                <h2 class="section-title"><i class="fa fa-history"></i> Our Story</h2>
+                    <h2 class="section-title"><i class="fa fa-history"></i> Our Story</h2>
                 </div>
                 <div class="ourstory-p text-center">
                     <p>The band was formed in 2015, when the founding members from a same youth organization gathered
@@ -156,7 +156,7 @@
             </section>
             <!-------------Music----------->
 
-            <div class="music-player" id="music-background">
+            <div class="music-player" id="music">
                 <div class="music-header text-center">
                     <h2 class="section-title"><i class="fas fa-headphones-alt"></i> Music</h2>
                 </div>
@@ -182,7 +182,7 @@
             </div>
 
             <!-------------Videos----------->
-            <div class="video-player" id="video-section">
+            <div class="video-player" id="video">
                 <div class="video-header text-center">
                     <h2 class="section-title"><i class="fa fa-video"></i> Video</h2>
                 </div>
@@ -193,18 +193,18 @@
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
                     <div class="col-md-6 videos">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IPz8GmvzYn4" frameborder="0"
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WveE6OtdAEs" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
                 </div>
             </div>
             <!-------------Photos----------->
-            <div class="photo-gallery" id="photos-background">
+            <div class="photo-gallery" id="photos">
                 <div class="photo-header text-center">
                     <h2 class="section-title"><i class="fa fa-images"></i> Photos</h2>
                 </div>
 
-                <div class="row photos">
+                <div class="row photo-gallery">
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <img class="img-responsive" src="assets/img/concert1.jpg" width="400" height="400" alt="">
                     </div>
@@ -236,11 +236,11 @@
 
             </div>
             <!-------------Tour----------->
-            <section id="tour" class="tour-dates section">
+            <section id="tour" class="tour-dates">
                 <div class="tour-header">
                     <h2 class="section-title text-center"><i class="far fa-calendar-alt"></i> Tour Dates</h2>
                 </div>
-                
+
                 <div class="col-sm-12">
                     <div class="tour-section">
                         <div class="item">
@@ -407,7 +407,7 @@
             </section>
 
             <!------------Contacts--------->
-            <section id="Contacts">
+            <section id="contacts">
                 <div class="contacts-header">
                     <h2 class="section-title text-center"><i class="far fa-address-card"></i> Contacts</h2>
                 </div>
@@ -429,27 +429,31 @@
                         </div>
                     </div>
                 </div>
-                    <div class="contact-links">
-                        <div class="col-md-12">
-                            <ul class="social-links list-inline">
-                                <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a></li>
-                                <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                                <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-spotify"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="contact-links">
                     <div class="col-md-12">
-                <p><i class="fa fa-copyright uppercase"></i>
-                 Calle Onse | 2019 All Rights Reserved
-                </p>
+                        <ul class="social-links list-inline">
+                            <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/CalleOnseBand/"><i
+                                        class="fab fa-facebook-square"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCStk0Wg1O5WAb0QIx8OeFJQ"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/calle_onse/"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://open.spotify.com/artist/272a8Kn5wBwHnLnvkFyevK"><i class="fab fa-spotify"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <p><i class="fa fa-copyright uppercase"></i>
+                        Calle Onse | 2019 All Rights Reserved
+                    </p>
                 </div>
             </section>
-            
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
-*{
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500,700,800,900');
+/**{
  outline: 1px solid red;
-}
+}*/
 
 
 html,body {
@@ -29,6 +30,7 @@ html,body {
 }
 
 .navbar {
+    background: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
 .navbar .navbar-nav .nav-item a {
@@ -50,7 +52,7 @@ html,body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -131,9 +133,10 @@ html,body {
 }
 
 .card {
-    border-radius: 10px;
+    
 }
 .card {
+    border-radius: 10px;
     position: relative;
     margin: 40px auto;
     border-radius: 4px;
@@ -152,7 +155,9 @@ html,body {
     width: 100%;
     font-weight: bold;
     color: #fff;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    -webkit-text-fill-color: orange;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2.00px; 
     transition: .5s;
 }
 
@@ -186,7 +191,6 @@ html,body {
     padding: 5px;
     background: #101113;
     color:orange;
-    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -241,7 +245,7 @@ html,body {
     justify-content: space-around;
     flex-flow: wrap;
 }
-#music-background {
+#music {
     background-image: url(/assets/img/music.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -257,7 +261,7 @@ html,body {
 /*----------------------------------------------Videos*/
 
 
-#video-section {
+#video{
     margin: auto;
 }
 .video-header {
@@ -347,7 +351,7 @@ html,body {
     background-clip: padding-box;
 }
 
-#photos-background {
+#photos {
     background-image: url(/assets/img/photos.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -358,11 +362,11 @@ html,body {
     min-height: 100%;
 }
 
-.photos {
+.photo-gallery {
     margin: auto;
 }
 
-.photos img {
+.photo-gallery img {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
     -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
@@ -375,7 +379,7 @@ html,body {
 
 }
 
-.photos img:hover {
+.photo-gallery img:hover {
     
      filter: none; /* IE6-9 */
      -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -536,7 +540,7 @@ a.btn-secondary:focus,
 
 /*----------------------------------------------contacts*/
 
-#Contacts {
+#contacts {
     color: #fff;
     background-color: #101113;
     text-align: center;
