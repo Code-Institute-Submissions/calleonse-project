@@ -89,6 +89,7 @@ html,body {
     background-clip: padding-box;
 }
 
+
 /*----------------------------------------------Band*/
 
 #band{
@@ -132,9 +133,7 @@ html,body {
     margin-right: auto;
 }
 
-.card {
-    
-}
+
 .card {
     border-radius: 10px;
     position: relative;
@@ -176,16 +175,20 @@ html,body {
 }
 @media (min-width: 720px) {
     .card:hover h3 {
-    top: 25%;
-    transform: translateY(-50%);    
-}
+    top: 20%;
+    transform: translateY(-50%);
+    font-size: 30px;
+} 
+
 }
 @media (min-width: 960px) {
     .card:hover h3 {
     top: 35%;
     transform: translateY(-50%);
+    font-size: 30px;
 }
 }
+
 
 .card-title {
     padding: 5px;
@@ -307,16 +310,6 @@ html,body {
         padding-bottom: 30px;
     }
 }
-/*
-@media only screen and (min-width: 992px) {
-  .videos {
-      background: orange;
-      
-    }
-} 
-@media only screen and (min-width: 1200px) {
-  .videos{background: pink;}
-}*/
 
 /*----------------------------------------------photos*/
 
@@ -390,29 +383,8 @@ html,body {
     transform: scale(1.1);
 }
 
-@media (min-width: 375px) {
-    .photos img{
-         width: 300px;
-         height: 300px;
-        margin-left: 20px;
-    }
-}
 
-@media (min-width: 768px) {
-    .photos img{
-         width: 300px;
-         height: 300px;
-        margin-left: 30px;
-    }
-}
 
-@media (min-width: 1024px) {
-    .photos img{
-         width: 300px;
-         height: 300px;
-        margin-left: 10px;
-    }
-}
 
 /*----------------------------------------------Tour*/
 
