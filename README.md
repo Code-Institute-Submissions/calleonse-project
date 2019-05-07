@@ -18,10 +18,23 @@ The Website Provides:
 
 ## Wireframes
 
+The development of the website was modeled from the wireframes i created using Balsamiq.
+
+Click the following link for the wireframes.
 
 [**Wireframes**]
 
 ## Features
+
+* One scroll responsive webpage and designed to work for all devices from mobile to a deskstop computer.
+* Nav bar -  was fixed and links to different sections.
+* Band Story - brief story how was the band was form because of their same passion love of music.
+* Music Player - Sound Cloud embed for the band latest music to play.
+* Vides - Youtube embed responsive video where they can play all the bands latest music video.
+* Photo Gallery - collections of the bands photo where when you hover the pictures uses transform scale.
+* Tour Dates - Easy access of the upcoming tours/concert dates and can secure to buy tickets on the spot.
+* Private gig/ Get in touch button - Use a Modal where the fans/clients can send a direct message to the band for special events.
+* Contacts - first part was for fans to join the bands community/newsletter and get an email update from the band. The second part Social medi links.
 
 ### Existing Features
 ### Features Left to Implement
