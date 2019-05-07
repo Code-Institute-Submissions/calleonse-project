@@ -7,13 +7,14 @@
 
 ## UX
 
-The website is design to provide the old and new upcoming fans a simple and easy user interface to connect with the Band.
+The website is designed to provide both new and old fans a simple and easy to use interface to connect with the band.
 
 The Website Provides:
+
 * A platform to listen to their latest music and where to download
 * A platform to watch the latest Videos.
 * A way for the future clients to contact and hire the band for special events.
-* A Platform they can access different social media and to share with new upcoming fans.
+* A Platform fans can find links to the bands Social Media which can be easily shared with new fans.
 
 ## Wireframes
 
