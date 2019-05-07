@@ -41,11 +41,11 @@ Click the following link for the wireframes.
 
 ## Technologies Used
 
-*HTML5
-*CSS3
-*Bootstrap 4.1.3
-*Fontawesome
-*jQuery
+* HTML5
+* CSS3
+* Bootstrap 4.1.3
+* Fontawesome
+* jQuery
 
 ## Testing
 
