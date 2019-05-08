@@ -8,33 +8,36 @@
 ## UX
 
 The website is designed to provide both new and old fans a simple and easy to use interface to connect with the band.
+The website also provides for the fans/potential clients to contact the band and get hired for special occasions/events.
 
-The Website Provides:
+The users stories and planning stage of creating different features for this website are base on:
 
-* A platform to listen to their latest music and where to download
-* A platform to watch the latest Videos.
-* A way for the future clients to contact and hire the band for special events.
-* A Platform fans can find links to the bands Social Media which can be easily shared with new fans.
+* As a fan, A platform to listen to their latest music and where to download.
+* As a fan, A platform to watch the latest Videos.
+* As a fan, A platform where the fans can view the latest photos.
+* As a fan, A platform where the fans can get updated about all recent news and developments thru newsletter.
+* As a fan, A platform where the fans can get access to the latest tour dates and where to get tickets and direction to the event.
+* As a fan, A way for the future clients to contact and hire the band for special events.
+* As a fan, A Platform fans can find links to the bands Social Media which can be easily shared with new fans.
 
-## Wireframes
 
-The development of the website was modeled from the wireframes i created using Balsamiq.
+The development of the website was modeled based from the user stories.
+I created this wireframes using Balsamiq.
 
-Click the following link for the wireframes.
 
 [**Wireframes**]
 
 ## Features
 
 * One scroll responsive webpage and designed to work for all devices from mobile to a deskstop computer.
-* Nav bar -  was fixed and links to different sections.
-* Band Story - brief story how was the band was form because of their same passion love of music.
-* Music Player - Sound Cloud embed for the band latest music to play.
-* Videos - Youtube embed responsive video where they can play all the bands latest music video.
-* Photo Gallery - collections of the bands photo where when you hover the pictures uses transform scale.
-* Tour Dates - Easy access of the upcoming tours/concert dates and can secure to buy tickets on the spot.
-* Private gig/ Get in touch button - Use a Modal where the fans/clients can send a direct message to the band for special events.
-* Contacts - first part was for fans to join the bands community/newsletter and get an email update from the band. The second part Social medi links.
+* <strong>Navigation bar</strong> -  was fixed and links to different sections.
+* <strong>Band Story</strong> - brief story how was the band was form because of their same passion love of music.
+* <strong>Music Player</strong> - Sound Cloud embed for the band latest music to play.
+* <strong>Videos</strong> - Youtube embed responsive video where they can play all the bands latest music video.
+* <strong>Photo Gallery</strong> - collections of the bands photo where when you hover the pictures uses transform scale.
+* <strong>Tour Dates</strong> - Easy access of the upcoming tours/concert dates and can secure to buy tickets on the spot.
+* <strong>Private gig/ Get in touch button</strong> - Use a Modal where the fans/clients can send a direct message to the band for special events.
+* <strong>Contacts</strong> - first part was for fans to join the bands community/newsletter and get an email update from the band. The second part Social medi links.
 
 ### Existing Features
 ### Features Left to Implement
