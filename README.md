@@ -59,7 +59,10 @@ I created this wireframes using Balsamiq.
     * Used to format the fonts for the website.
 * <strong><a href='https://getbootstrap.com/docs/4.3/getting-started/introduction/#js'>jQuery</a></strong>
     * Used for DOM tree traversal and manipulation.
+
 ## Testing
+
+* The Html was validated with on: [W3C](https://validator.w3.org/)
 
 ## Deployment
 
