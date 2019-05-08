@@ -29,8 +29,8 @@ I created this wireframes using Balsamiq.
 
 ## Features
 
-* <strong>One scroll page</strong> responsive webpage and designed to work for all devices from mobile to a deskstop computer.
-* <strong>Navigation bar</strong> -  was fixed and links to different sections.
+* <strong>One scroll page</strong> - responsive webpage and designed to work for all devices from mobile to a deskstop computer.
+* <strong>Navigation bar</strong> - was fixed and links to different sections.
 * <strong>Band Story</strong> - brief story how was the band was form because of their same passion love of music.
 * <strong>Music Player</strong> - Sound Cloud embed for the band latest music to play.
 * <strong>Videos</strong> - Youtube embed responsive video where they can play all the bands latest music video.
@@ -39,8 +39,11 @@ I created this wireframes using Balsamiq.
 * <strong>Private gig/ Get in touch button</strong> - Use a Modal where the fans/clients can send a direct message to the band for special events.
 * <strong>Contacts</strong> - first part was for fans to join the bands community/newsletter and get an email update from the band. The second part Social medi links.
 
-### Existing Features
+
 ### Features Left to Implement
+
+* <strong>Downloadable content </strong> - Photos, music and videos to easily downloaded for their own purposes such as wallpapers and ringtones.
+* <strong>Community / Newsletter </strong> - to have their own user ids and confirmation emails when they buy tickets.
 
 ## Technologies Used
 
