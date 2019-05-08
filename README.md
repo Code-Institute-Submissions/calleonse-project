@@ -47,12 +47,18 @@ I created this wireframes using Balsamiq.
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* Bootstrap 4.1.3
-* Fontawesome
-* jQuery
-
+* <strong><a href='https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5'>HTML5</a></strong>
+    * Used for the page structure.
+* <strong><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3'>CSS3</a></strong>
+    * Used for styling and Positioning of the page.
+* <strong><a href='https://getbootstrap.com/docs/4.3/getting-started/download/'>Bootstrap 4.1.3</a></strong>
+    * Used for Responsive and layout of the website.
+* <strong><a href='https://fontawesome.com/start'>Fontawesome v5.3.1</a></strong>
+    * Used for Icons for the website.
+* <strong><a href='https://fonts.google.com/'>Google Fonts</a></strong>
+    * Used to format the fonts for the website.
+* <strong><a href='https://getbootstrap.com/docs/4.3/getting-started/introduction/#js'>jQuery</a></strong>
+    * Used for DOM tree traversal and manipulation.
 ## Testing
 
 ## Deployment
