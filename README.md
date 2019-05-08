@@ -62,7 +62,7 @@ I created this wireframes using Balsamiq.
 
 ## Testing
 
-* The Html was validated with on: [W3C](https://validator.w3.org/)
+* The Html was validated with: [W3C](https://validator.w3.org/)
 
 ## Deployment
 
