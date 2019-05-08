@@ -29,7 +29,7 @@ I created this wireframes using Balsamiq.
 
 ## Features
 
-* One scroll responsive webpage and designed to work for all devices from mobile to a deskstop computer.
+* <strong>One scroll page</strong> responsive webpage and designed to work for all devices from mobile to a deskstop computer.
 * <strong>Navigation bar</strong> -  was fixed and links to different sections.
 * <strong>Band Story</strong> - brief story how was the band was form because of their same passion love of music.
 * <strong>Music Player</strong> - Sound Cloud embed for the band latest music to play.
