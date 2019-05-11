@@ -21,15 +21,15 @@ The users stories and planning stage of creating different features for this web
 * As a fan, A Platform fans can find links to the bands Social Media which can be easily shared with new fans.
 
 
-The development of the website was modeled based from the user stories.
-I created this wireframes using Balsamiq.
+The development of the website was modeled based from the user stories and
+ created this wireframes using Balsamiq.
 
 
 [**Wireframes**]
 
 ## Features
 
-* <strong>One scroll page</strong> - responsive webpage and designed to work for all devices from mobile to a deskstop computer.
+* <strong>Single scrolling page</strong> - responsive webpage and designed to work for all devices from mobile to a deskstop computer.
 * <strong>Navigation bar</strong> - was fixed and links to different sections.
 * <strong>Band Story</strong> - brief story how was the band was form because of their same passion love of music.
 * <strong>Music Player</strong> - Sound Cloud embed for the band latest music to play.
@@ -62,7 +62,13 @@ I created this wireframes using Balsamiq.
 
 ## Testing
 
-* The Html was validated with: [W3C](https://validator.w3.org/)
+* The code was validated with: [W3C](https://validator.w3.org/)
+* The website was tested manually from all the links, modals, page responsivenes mobile to deskstop, embedded videos and music player.
+* The website was tested on the following browsers:
+    * Safari
+    * Google Chrome
+    * Mozilla Firefox
+    * Internet Explorer
 
 ## Deployment
 
