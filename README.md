@@ -37,7 +37,7 @@ The development of the website was modeled based from the user stories and
 * <strong>Photo Gallery</strong> - collections of the bands photo where when you hover the pictures uses transform scale.
 * <strong>Tour Dates</strong> - Easy access of the upcoming tours/concert dates and can secure to buy tickets on the spot.
 * <strong>Private gig/ Get in touch button</strong> - Use a Modal where the fans/clients can send a direct message to the band for special events.
-* <strong>Contacts</strong> - first part was for fans to join the bands community/newsletter and get an email update from the band. The second part Social medi links.
+* <strong>Contacts</strong> - first part was for fans to join the bands community/newsletter and get an email update from the band. The second part social media links.
 
 
 ### Features Left to Implement
@@ -81,7 +81,16 @@ The website was deployed using GitHub pages. can easily access to the following 
 
 ### Content
 
+ * All the text content was taken from the Facebook page of Calle Onse.  
+    * Calle Onse - https://www.facebook.com/CalleOnseBand/
+ 
 ### Media
+
+* All photos used on this site was taken from the bands [Facebook](https://www.facebook.com/CalleOnseBand/) page.
+* The music player was obtained from the bands Sound Cloud page.
+* The videos used was taken from the bands youtube channel.
+* The music and video sections background was obtained from the site [Unsplash](https://unsplash.com/search/photos/concert) photos for everyone.
+
 
 ### Acknowledgements
 - 
