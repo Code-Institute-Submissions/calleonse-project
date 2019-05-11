@@ -74,7 +74,7 @@ The development of the website was modeled based from the user stories and
 
 The website was deployed using GitHub pages. can easily access to the following link url:
 
-[Calle Onse] (https://johndbigboi.github.io/calleonse-project/)
+[Calle Onse](https://johndbigboi.github.io/calleonse-project/)
 
 
 ## Credits
