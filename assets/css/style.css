@@ -30,7 +30,7 @@ html,body {
 }
 
 .navbar {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     font-size: 20px;
 }
 .navbar .navbar-nav .nav-item a {
@@ -44,6 +44,7 @@ html,body {
 .navbar .nav-item:hover .nav-link {
     color: orange;
 }
+
 .jumbotron {
     padding-top: 90px;
     padding-bottom: 90px;
