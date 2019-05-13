@@ -25,7 +25,7 @@ The development of the website was modeled based from the user stories and
  created this wireframes using Balsamiq.
 
 
-[Wireframes](assets/wireframe/calle onse wireframe.png)
+[Wireframes](https://github.com/johndbigboi/calleonse-project/blob/master/assets/wireframe/calle%20onse%20wireframe.png)
 
 ## Features
 
