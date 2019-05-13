@@ -95,6 +95,6 @@ The website was deployed using GitHub pages. can easily access to the following 
 ### Acknowledgements
 
 - I received inspiration for this project from:
-    -[3rd wave media](https://themes.3rdwavemedia.com/decibel/bs4/)
-    -[bootsnipp](https://bootsnipp.com/snippets/9MdX) for the photo         gallery.
+    * [3rd wave media](https://themes.3rdwavemedia.com/decibel/bs4/)
+    * [bootsnipp](https://bootsnipp.com/snippets/9MdX) for the photo         gallery.
 
