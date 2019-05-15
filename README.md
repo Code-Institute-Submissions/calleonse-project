@@ -87,8 +87,8 @@ The website was deployed using GitHub pages. can easily access to the following 
 ### Media
 
 * All photos used on this site was taken from the bands [Facebook](https://www.facebook.com/CalleOnseBand/) page.
-* The music player was obtained from the bands Sound Cloud page.
-* The videos used was taken from the bands youtube channel.
+* The music player was obtained from the bands [Sound Cloud](https://soundcloud.com/calleonsemusic) page.
+* The videos used was taken from the bands [Youtube](https://www.youtube.com/channel/UCStk0Wg1O5WAb0QIx8OeFJQ) channel.
 * The music and video sections background was obtained from the site [Unsplash](https://unsplash.com/search/photos/concert) photos for everyone.
 
 
