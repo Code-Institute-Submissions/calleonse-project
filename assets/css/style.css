@@ -20,7 +20,8 @@ html,body {
 }
 
 
-/* navbar*/
+/* navbar */
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -199,24 +200,22 @@ html,body {
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
-}
+    }
 }
 @media (min-width: 720px) {
     .card:hover h3 {
     top: 20%;
     transform: translateY(-50%);
     font-size: 30px;
-} 
-
+    } 
 }
 @media (min-width: 960px) {
     .card:hover h3 {
     top: 35%;
     transform: translateY(-50%);
     font-size: 30px;
+    }
 }
-}
-
 
 .card-title {
     padding: 5px;
@@ -231,6 +230,7 @@ html,body {
 .card-body {
     padding: 10px;
 }
+
 /*----------------------------------------------Music*/
 
 .music-header {
@@ -276,6 +276,7 @@ html,body {
     justify-content: space-around;
     flex-flow: wrap;
 }
+
 #music {
     background-image: url('../img/music.jpg');
     background-position: center;
@@ -285,6 +286,7 @@ html,body {
     min-width: 100%;
     min-height: 100%;
 }
+
 .music iframe {
     margin-bottom: 10px;
 }
@@ -405,8 +407,6 @@ html,body {
 }
 
 
-
-
 /*----------------------------------------------Tour*/
 
 
@@ -445,8 +445,6 @@ html,body {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
-
-
 
 .tour-section .item {
     position: relative;
@@ -490,8 +488,7 @@ html,body {
     color: black;
 }
 
-.btn-ghost-dark:hover {
-    
+.btn-ghost-dark:hover {   
     -webkit-box-shadow: inset 0 100px 0 0 #101113;
     -moz-box-shadow: inset 0 100px 0 0 #101113;
     box-shadow: inset 0 100px 0 0 #101113;
@@ -502,6 +499,7 @@ html,body {
 .btn-secondary{
     background-color: black;
 }
+
 a.btn-secondary:hover, 
 a.btn-secondary:active, 
 a.btn-secondary:focus, 
@@ -594,7 +592,6 @@ a.btn-secondary:focus,
     font-size: 25px;
     text-align: center;
     color: white;
-    
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
