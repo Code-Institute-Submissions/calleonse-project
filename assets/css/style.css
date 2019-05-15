@@ -59,6 +59,7 @@ html,body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center 5%;
     height: 100%;
 }
 
@@ -615,4 +616,5 @@ a.btn-secondary:focus,
     position: static;
     margin-top: 15px;
     margin-bottom: 15px;
+}
 }
