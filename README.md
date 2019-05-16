@@ -72,9 +72,14 @@ The development of the website was modeled based from the user stories and
 
 ## Deployment
 
+The process on how i deploy my created website is by git hub. How to do that can be found here:
+[https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
+
 The website was deployed using GitHub pages. can easily access to the following link url:
 
 [Calle Onse](https://johndbigboi.github.io/calleonse-project/)
+
+In addion, On how to run your code locally, easily just click the [link](https://help.github.com/en/articles/cloning-a-repository).
 
 
 ## Credits
