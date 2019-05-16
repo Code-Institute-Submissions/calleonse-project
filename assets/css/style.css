@@ -576,8 +576,9 @@ a.btn-secondary:focus,
 }
 
 .newsletter p{
-    font-size: 12px;
-    padding:10px;
+    text-align: center;
+    font-size: 14px;
+    padding:5px;
 }
 .newsletter .email{
     padding-top: 40px;
