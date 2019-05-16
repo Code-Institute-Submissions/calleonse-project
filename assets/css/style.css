@@ -54,7 +54,7 @@ html,body {
 .jumbotron {
     padding-top: 90px;
     padding-bottom: 90px;
-    background: url('../img/jumbotron.jpg') no-repeat center center fixed;
+    background: url('../images/jumbotron.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -171,7 +171,7 @@ html,body {
 
 
 .card {
-    border-radius: 10px;
+    border: none;
     position: relative;
     margin: 40px auto;
     border-radius: 4px;
@@ -285,7 +285,7 @@ html,body {
 }
 
 #music {
-    background: url('../img/music.jpg') no-repeat center center fixed;
+    background: url('../images/music.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -374,7 +374,7 @@ html,body {
 }
 
 #photos {
-    background: url('../img/photos.jpg') no-repeat center center fixed;
+    background: url('../images/photos.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
