@@ -160,6 +160,7 @@ html,body {
 .card-deck {
     margin: 10px 10px 30px 10px;
     background: #fff;
+    justify-content: center;
     
 }
 .card-deck .col-md-2{
