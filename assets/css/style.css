@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,500,700,800,900');
-/**{
- outline: 1px solid red;
-}*/
+
 
 
 html,body {
@@ -44,7 +42,7 @@ html,body {
 }
 
 
-/* change the color of active or hovered links */
+
 .navbar .nav-item.active .nav-link,
 .navbar .nav-item:focus .nav-link,
 .navbar .nav-item:hover .nav-link {
@@ -389,8 +387,8 @@ html,body {
 
 .photo-gallery img {
     
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: gray;
+    -webkit-filter: grayscale(1);
     -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
@@ -405,8 +403,8 @@ html,body {
 
 .photo-gallery img:hover {
     
-     filter: none; /* IE6-9 */
-     -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+     filter: none;
+     -webkit-filter: grayscale(0);
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
