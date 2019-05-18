@@ -22,10 +22,7 @@ The users stories and planning stage of creating different features for this web
 
 
 The development of the website was modeled based from the user stories and
- created this wireframes using Balsamiq.
-
-
-[Wireframes](https://github.com/johndbigboi/calleonse-project/blob/master/assets/wireframe/calle%20onse%20wireframe.png)
+ created this wireframes using Balsamiq mockups. link to my [Wireframes](https://github.com/johndbigboi/calleonse-project/blob/master/assets/wireframe/calle%20onse%20wireframe.png).
 
 ## Features
 
