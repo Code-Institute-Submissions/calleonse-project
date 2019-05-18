@@ -47,6 +47,8 @@ The development of the website was modeled based from the user stories and
 
 ## Technologies Used
 
+* <strong><a href='https://code.visualstudio.com/'>Visual Studio Code</a></strong> 
+    * A source-code editor i used to build the website.
 * <strong><a href='https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5'>HTML5</a></strong>
     * Used for the page structure.
 * <strong><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3'>CSS3</a></strong>
@@ -59,27 +61,58 @@ The development of the website was modeled based from the user stories and
     * Used to format the fonts for the website.
 * <strong><a href='https://getbootstrap.com/docs/4.3/getting-started/introduction/#js'>jQuery</a></strong>
     * Used for DOM tree traversal and manipulation.
+* <strong><a href='https://www.youtube.com/channel/UCStk0Wg1O5WAb0QIx8OeFJQ'>Youtube</a></strong>
+    * Used to host music videos.
+* <strong><a href='https://soundcloud.com/calleonsemusic'>Soundcloud</a></strong>
+    * Used to host band songs.
 
 ## Testing
 
+All the testing was already completed and all are working fine. The test was based on the following steps:
+
+### Testing of User stories:
+
+* As a fan, A platform to listen to their latest music and where to download.
+    * They can easily access the latest music with the embed player and links to the Soundcloud website.
+* As a fan, A platform to watch the latest Videos.
+    * They can watch the videos without leaving the site using embed Youtube videos.
+* As a fan, A platform where the fans can view the latest photos.
+    * The fans have an updated Photo Gallery section.
+* As a fan, A platform where the fans can get updated about all recent news and developments thru newsletter.
+    * The fans have the option on Joining the newsletter providing their emails.
+* As a fan, A platform where the fans can get access to the latest tour dates and where to get tickets and direction to the event.
+    * On the Tour section, The fans can easily check when and where to buy the next concerts/gigs will take place,
+* As a fan, A way for the future clients to contact and hire the band for special events.
+    * On the Tour section, A button is provided leading to a modal and can message the band to hire them for special events.
+* As a fan, A Platform fans can find links to the bands Social Media which can be easily shared with new fans.
+    * On the Contact section, The fans can find all the social media links of the band.
+
+
+### Manual testing:
+
 * The code was validated with: [W3C](https://validator.w3.org/)
-* The website was tested manually from all the links, modals, page responsivenes mobile to deskstop, embedded videos and music player.
+* The website was tested manually from all the links, modals, photo hover, page responsivenes mobile to deskstop, embedded videos and music player.
 * The website was tested on the following browsers:
     * Safari
     * Google Chrome
     * Mozilla Firefox
     * Internet Explorer
 
+### Further testing:
+
+I asked my family, friends and fellow students on slack using #peer-code-review for any issues they can find and what the page looks to their mobile and desktop devices. All the issues they found was already fix and tested again.
+
 ## Deployment
 
-The process on how i deploy my created website is by git hub. How to do that can be found here:
+The process on how i deploy my created website is by using GitHub. click the link below and follow the steps. 
+
 [https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
 The website was deployed using GitHub pages. can easily access to the following link url:
 
 [Calle Onse](https://johndbigboi.github.io/calleonse-project/)
 
-In addion, On how to run your code locally, easily just click the [link](https://help.github.com/en/articles/cloning-a-repository).
+In addion, On how to run your code locally, easily just click the [link](https://help.github.com/en/articles/cloning-a-repository) and follow the steps.
 
 
 ## Credits
@@ -101,5 +134,5 @@ In addion, On how to run your code locally, easily just click the [link](https:/
 
 - I received inspiration for this project from:
     * [3rd wave media](https://themes.3rdwavemedia.com/decibel/bs4/)
-    * [bootsnipp](https://bootsnipp.com/snippets/9MdX) for the photo         gallery.
+    * [bootsnipp](https://bootsnipp.com/snippets/9MdX) for the photo gallery.
 
