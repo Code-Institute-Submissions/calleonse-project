@@ -114,11 +114,42 @@ The Following steps were taken:
 * Log In to Github
 * Select <strong>johndbigboi/calleonse-project</strong> from the list.
 * Go to <strong>Settings</strong> menu.
-* Scroll down to <strong>Source</strong>. On the drop-down menu Select <strong>None</strong>   automatically refreshed. Then    select <strong>Master Branch</strong>  automatically        refreshed again.
+* Scroll down to <strong>Source</strong>. On the drop-down menu Select <strong>None</strong>  will automatically refreshed. Then select <strong>Master Branch</strong> automatically       refreshed again.
 * The website is now deployed.
 * Copy the link with <strong>.github.io</strong> name then go to the repository page edit      the Description/Website section     below the Repository name, paste the link and click      save.
     
-In addition, On how to run your code locally, easily just click the [link](https://help.github.com/en/articles/cloning-a-repository) and follow the steps.
+In addition, On how to run your code locally, Using Windows and linux Please follow the [link](https://help.github.com/en/articles/cloning-a-repository) and for Mac users follow the steps below.
+
+* On GitHub, navigate to the main page of the repository.
+
+    * Note: If the repository is empty, you can manually copy the repository page's URL from your browser and skip to step four.
+
+* Under the repository name, click Clone or download.
+
+* In the Clone with HTTPs section, click to copy the clone URL for the repository.
+
+* Open Terminal.
+
+* Change the current working directory to the location where you want the cloned directory to be made.
+
+* Type git clone, and then paste the URL you copied in Step 2.
+
+    * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+* Press Enter. Your local clone will be created.
+
+    * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `Spoon-Knife`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+
+Cloning a repository to <strong>GitHub Desktop</strong>.
+
+* On GitHub, navigate to the main page of the repository.
+
+* Under your repository name, click  to clone your repository in Desktop. Follow the prompts in GitHub Desktop to complete the clone. For more information, see [Cloning a repository from GitHub to GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop).
 
 
 ## Credits
