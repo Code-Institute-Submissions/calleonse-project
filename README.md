@@ -101,14 +101,23 @@ I asked my family, friends and fellow students on slack using #peer-code-review 
 
 ## Deployment
 
+The website was deployed using GitHub pages and was developed using Visual Studio Code, Committed to git and pushed to github using GitHub deskstop. can easily access to the following link url:
+
+[Calle Onse](https://johndbigboi.github.io/calleonse-project/)
+
+
 The process on how i deploy my created website is by using GitHub. click the link below and follow the steps. 
 
 [https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
-The website was deployed using GitHub pages. can easily access to the following link url:
-
-[Calle Onse](https://johndbigboi.github.io/calleonse-project/)
-
+The Following steps were taken:
+    * Log In to Github
+    * Select <strong>johndbigboi/calleonse-project</strong> from the list.
+    * Go to <strong>Settings</strong> menu.
+    * Scroll down to <strong>Source</strong>. On the drop-down menu Select <strong>None</strong> automatically refreshed. Then    select <strong>Master Branch</strong>  automatically refreshed again.
+    * The website is now deployed.
+    * Copy the link with <strong>.github.io</strong> name then go to the repository page edit the Description/Website section     below the Repository name, paste the link and click save.
+    
 In addion, On how to run your code locally, easily just click the [link](https://help.github.com/en/articles/cloning-a-repository) and follow the steps.
 
 
