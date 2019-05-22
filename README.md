@@ -22,7 +22,7 @@ The users stories and planning stage of creating different features for this web
 
 
 The development of the website was modeled based from the user stories and
- created this wireframes using Balsamiq mockups. link to my [Wireframes](https://github.com/johndbigboi/calleonse-project/blob/master/assets/wireframe/calle%20onse%20wireframe.png).
+ created this wireframes using Balsamiq mockups. link to my [Wireframes](https://github.com/johndbigboi/calleonse-project/blob/master/assets/wireframe/calle_onse_wireframe.png).
 
 ## Features
 
@@ -46,13 +46,13 @@ The development of the website was modeled based from the user stories and
 
 * <strong><a href='https://code.visualstudio.com/'>Visual Studio Code</a></strong> 
     * A source-code editor i used to build the website.
-* <strong><a href='https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5'>HTML5</a></strong>
+* <strong><a href='https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5'>HTML</a></strong>
     * Used for the page structure.
-* <strong><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3'>CSS3</a></strong>
+* <strong><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3'>CSS</a></strong>
     * Used for styling and Positioning of the page.
-* <strong><a href='https://getbootstrap.com/docs/4.3/getting-started/download/'>Bootstrap 4.1.3</a></strong>
+* <strong><a href='https://getbootstrap.com/docs/4.3/getting-started/download/'>Bootstrap</a></strong>
     * Used for Responsive and layout of the website.
-* <strong><a href='https://fontawesome.com/start'>Fontawesome v5.3.1</a></strong>
+* <strong><a href='https://fontawesome.com/start'>Fontawesome</a></strong>
     * Used for Icons for the website.
 * <strong><a href='https://fonts.google.com/'>Google Fonts</a></strong>
     * Used to format the fonts for the website.
@@ -139,11 +139,7 @@ In addition, On how to run your code locally, Using Windows and linux Please fol
 * Press Enter. Your local clone will be created.
 
     * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-    > Cloning into `Spoon-Knife`...
-    > remote: Counting objects: 10, done.
-    > remote: Compressing objects: 100% (8/8), done.
-    > remove: Total 10 (delta 1), reused 10 (delta 1)
-    > Unpacking objects: 100% (10/10), done.
+
 
 Cloning a repository to <strong>GitHub Desktop</strong>.
 
@@ -171,5 +167,7 @@ Cloning a repository to <strong>GitHub Desktop</strong>.
 
 - I received inspiration for this project from:
     * [3rd wave media](https://themes.3rdwavemedia.com/decibel/bs4/)
-    * [bootsnipp](https://bootsnipp.com/snippets/9MdX) for the photo gallery.
+    * [Bootsnipp](https://bootsnipp.com/snippets/9MdX) for the photo gallery.
     * Scroll Back To Top Button was from [w3school.com](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+    * A big help from Tutors of Codeinstute
+    * Big Thanks to my mentor Mr. Simen Deahlin
