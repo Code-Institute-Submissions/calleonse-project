@@ -21,7 +21,7 @@ html,body {
     padding-bottom: 5px;
 }
 
-/* go to top button */
+/* go to top button */ /* code snippet taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -43,7 +43,10 @@ html,body {
 }
 
 /* navbar */
-
+.logo {
+    width: 80px;
+    height: 80px;
+}
 .fixed-top {
     position: fixed;
     top: 0;
