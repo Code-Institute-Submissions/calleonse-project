@@ -172,4 +172,4 @@ Cloning a repository to <strong>GitHub Desktop</strong>.
 - I received inspiration for this project from:
     * [3rd wave media](https://themes.3rdwavemedia.com/decibel/bs4/)
     * [bootsnipp](https://bootsnipp.com/snippets/9MdX) for the photo gallery.
-
+    * Scroll Back To Top Button was from [w3school.com](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
